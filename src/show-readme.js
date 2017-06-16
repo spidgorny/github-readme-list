@@ -10,8 +10,7 @@ var ShowReadme = (function () {
                     _this.displayReadme(repoInfo, readmeData);
                 });
             });
-        })
-            .catch(function (e) {
+        })["catch"](function (e) {
             console.error(e);
         });
     }
